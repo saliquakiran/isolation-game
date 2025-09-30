@@ -9,6 +9,15 @@ A full-stack web application featuring the classic Isolation game with an AI opp
 3. After each move, the cell you left becomes blocked
 4. Win by trapping your opponent with no valid moves
 
+## 🌐 Live Demo
+
+**Play the game online:** [https://isolation-game.vercel.app/](https://isolation-game.vercel.app/)
+
+### Deployment Architecture
+- **Frontend**: React + Vite → [Vercel](https://vercel.com)
+- **Backend**: Node.js + Express + TensorFlow.js → [Railway](https://railway.app)
+- **API Endpoint**: `https://isolation-gamebackend-production.up.railway.app/api/health`
+
 ## 🚀 Getting Started
 
 ### Prerequisites
